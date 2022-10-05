@@ -1,0 +1,223 @@
+body, html{
+	background-color: white;
+	margin:0px;
+}
+*{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container{
+	width: 1278px;
+	margin: auto;
+	/*background-color:green;*/
+	height:160px;
+	
+}
+.page{
+	min-height:100%;
+}
+.header{
+	background-color:white;
+	margin:auto;
+	margin-bottom:30px;
+	box-shadow:0px 5px 5px #3E3A3F;
+	z-index:1000000;
+}
+.nav{
+	float:right;
+	margin-top:90px;
+	width:910px;
+	height:50px;
+	/*background-color:red;*/
+}
+
+.nav ul li{
+	list-style-type:none;
+	display:inline;
+	font-size:17px;
+	padding:15px 15px;
+	/*background-color:yellow;*/
+	margin-right:20px;
+	padding-left:20px;
+	padding-right:20px;
+	text-transform:uppercase;
+}
+.nav ul li:hover{
+	border:4px;
+	border-top-right-radius:9px;
+	border-bottom-left-radius:9px;
+	background-color:red;
+}
+.nav ul{
+	padding-left:150px;
+	margin-left:200px;
+	/*background-color:purple;*/
+	padding-bottom:10px;
+}
+.nav ul li a{
+	text-decoration:none;
+	font-weight:bold;
+	padding:2px;
+}
+.nav ul li a:hover{
+	color:white;
+}
+.active {
+  color:red;
+  
+}
+.fa-solid{
+	margin-top:5px;
+	font-size:20px;
+	margin-right:10px;
+}
+.fa-business-time{
+	color:white;
+	font-size:20px;
+	margin-left:20px;
+}
+.title-logo{
+	display:inline;
+	float:left;
+	color:red;
+	width:225px;
+	height:137px;
+	margin-top:8px;
+	padding-left:100px;
+	font-size:30px;
+	font-family: "Libre Baskerville",serif;
+}
+/*.art{
+	display:inline;
+	color:#0C2071;
+	font-size:30px;
+}*/
+
+/*.logo{
+	width:255px;
+	height:137px;
+	margin-left:200px;
+	float:;
+	margin-right:250px;
+	margin-top:0px;
+}*/
+.banner-text{
+	width:auto;
+	/*margin-right:60px;*/
+	background-color:black;
+	height:40px;
+	text-align:center;
+	color:white;
+}
+/*-------------------Servicii--------------------*/
+.container3{
+	width: auto;
+	margin: auto;
+	height:200px;
+	background-color:black;
+	margin-top: 50px;
+	background-image:url('0_despre.jpg');
+}
+
+.containermasini{
+	width:385px;
+	float:left;
+	height:500px;
+	padding:10px;
+	background-color:#D6C6A9;
+	margin-left:72px;
+	margin-right:5px;
+	margin-top:0px;
+	margin-bottom:20px;
+	border-radius:10px;
+}
+.imagineservicii1{
+	margin-top:35px;
+	margin-left:-10px;
+}
+.imagineservicii2{
+	margin-top:28px;
+	margin-left:-10px;
+}
+.imagineservicii2 img{
+	opacity: 0.7;
+	transition: opacity 0.5s;
+}
+.imagineservicii2:hover img{
+	opacity:1;
+	 -webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+.imagineservicii3{
+	margin-top:35px;
+	margin-left:-10px;
+}
+.imagineservicii3 img{
+	opacity: 0.7;
+	transition: opacity 0.5s;
+}
+.imagineservicii3:hover img{
+	opacity:1;
+	 -webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+.h1servicii{
+	text-align:center;
+	letter-spacing:5px;
+	text-transform:uppercase;
+}
+.h1servicii h1 a{
+	text-decoration:none;
+	color:black;
+	font-size:32px;
+}
+.pservicii{
+	text-align:center;
+	font-size: 20px;
+}
+.pservicii p a{
+	text-decoration:none;
+	color:black;
+}
+.smallfooter{
+	text-align:center;
+	font-size:10px;
+	padding-bottom:20px;
+	margin-top:580px;
+}
+.containermasini:hover{
+	background-color:#E7C27C;
+}
+/*.h1servicii:hover{
+	color:red;*/
+}
+.imagineservicii1 img{
+	opacity: 0.7;
+	transition: opacity 0.5s;
+}
+.imagineservicii1:hover img{
+	opacity:1;
+	 -webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+:hover .containermasini{
+	border-radius:10px;
+}
+
+
+/*------------------SFARSIT SERVICII-----------*/
+/*--------------Footer------------------*/
+.footer{
+	/*box-shadow:0px -5px 5px black;*/
+	height:50px;
+	text-align:center;
+	padding-top:70px;
+	font-weight:bold;
+	background-color:black;
+	color:white;
+}
+.clear{
+	clear:both;
+	height:150px;
+}
+/*----------------SFARSIT FOOTER----------------*/
