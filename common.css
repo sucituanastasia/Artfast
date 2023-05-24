@@ -21,21 +21,19 @@ body, html{
 	background-color:white;
 	margin-bottom:30px;
 	box-shadow:0px 5px 5px #3E3A3F;
-	/* z-index:1000000; */
 }
 .nav{
-	float:right;
-	margin-top:90px;
-	width: 75%;
+	display: flex;
+	max-width: 1000px;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
 }
-
 .nav ul li{
-	list-style-type:none;
-	display:inline;
-	font-size:17px;
-	margin: auto;
-	margin-right: 20px;
-	text-transform:uppercase;
+	list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+	margin: 10px;
 }
 .nav ul li:hover{
 	border:4px;
@@ -44,14 +42,18 @@ body, html{
 	background-color:red;
 }
 .nav ul{
-	padding-left:150px;
-	padding-bottom:10px;
-	float: right;
+	display: flex;
+    align-items: stretch;
+    justify-content:end;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
+
 .nav ul li a{
 	text-decoration:none;
 	font-weight:bold;
-	padding:2px;
+	padding:30px;
 }
 .nav ul li a:hover{
 	color:white;
